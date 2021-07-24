@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>FashionMonger - Blog</title>
-<meta name="description" content="My amazing fashion blog and portfoli site, naturally…">
+<meta name="description" content="My amazing fashion blog and portfolio site, naturally…">
 
 
   <meta name="author" content="Karen Gordon">
@@ -21,13 +21,10 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="FashionMonger - Blog">
 <meta property="og:title" content="FashionMonger - Blog">
-<meta property="og:url" content="/">
+<meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="My amazing fashion blog and portfoli site, naturally…">
-
-
-
+  <meta property="og:description" content="My amazing fashion blog and portfolio site, naturally…">
 
 
 
@@ -36,12 +33,15 @@
 
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="/">
+
+<link rel="canonical" href="http://localhost:4000/">
 
 
 
@@ -52,7 +52,7 @@
     
       "@type": "Person",
       "name": "&hearts; Karen Gordon &hearts; FashionMonger &hearts;",
-      "url": "/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -144,22 +144,22 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
     <div class="author__avatar">
-      
-        <img src="/assets/images/karen_octo_1.png" alt="Karen Gordon" itemprop="image">
-      
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/karen_octo_1.png" alt="Karen Gordon" itemprop="image" class="u-photo">
+      </a>
     </div>
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Karen Gordon</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Karen Gordon</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>I ♥ Fashion Like My Orangey Cats ♥ Treats!</p>
 
       </div>
@@ -171,7 +171,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">America, USA</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">America, USA</span>
         </li>
       
 
@@ -241,7 +241,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -249,7 +249,6 @@
     </ul>
   </div>
 </div>
-
   
   </div>
 
@@ -277,7 +276,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/jekyll/update/welcome-to-jekyll/" rel="permalink">Welcome to Jekyll!
+        <a href="/jekyll/exclude-post/" rel="permalink">Exclude Post from Search Index
 </a>
       
     </h2>
@@ -302,7 +301,48 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Hey there fellow Octocats! Let’s show the world why nothing beats a well dressed Orangey Cat!
+    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aciform/antiquarianism/arrangement/asmodeus/broder/buying/championship/chastening/disinclination/disinfection/dispatch/echappee/enphagy/edge-case-many-categories/" rel="permalink">Edge Case: Many Categories
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has many categories.
 </p>
   </article>
 </div>

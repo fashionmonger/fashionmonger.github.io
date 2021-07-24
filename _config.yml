@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "plum" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+# minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,9 +20,9 @@ title                    : "FashionMonger - Blog"
 title_separator          : "-"
 subtitle                 : "If having style were easy, everyone would do it!"
 name                     : "&hearts; Karen Gordon &hearts; FashionMonger &hearts;"
-description              : "My amazing fashion blog and portfoli site, naturally..."
-url                      : "https://fashionmonger.github.io"
-# baseurl                  : "/blog"
+description              : "My amazing fashion blog and portfolio site, naturally..."
+#url                      : "https://fashionmonger.github.io"
+#baseurl                  : "/"
 repository               : "fashionmonger/fashionmonger.github.io"
 teaser                   : "/assets/images/karen_octo_3.png"
 logo                     : "/assets/images/karen_octo_2.png"
